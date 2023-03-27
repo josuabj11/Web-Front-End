@@ -1,0 +1,123 @@
+<body>
+    <h1>Form Penambahan Koleksi</h1>
+        
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <td>
+                    <label for="judul">Judul</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="judul" id="judul" placeholder="Judul">
+                </td>
+           </tr>
+           
+           <tr>
+                <td>
+                    <label for="penulis">Penulis</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="penulis" id="penulis" placeholder="Penulis">
+                </td>
+           </tr>
+           
+           <tr>
+                <td>
+                    <label for="penerbit">Penerbit</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="penerbit" id="penerbit" placeholder="Penerbit">
+                </td>
+           </tr>
+           
+           <tr>
+                <td>
+                    <label for="tahunterbit">Tahun Terbit</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="tahunterbit" id="tahunterbit" placeholder="Tahun Terbit">
+                </td>
+           </tr>
+           
+           <tr>
+                <td>
+                    <label for="isbn">ISBN/ISSN</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="isbn" id="isbn" placeholder="ISBN">
+                </td>
+           </tr>
+
+           <tr>
+                <td>
+                    <label for="bahasa">Bahasa</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <select name="bahasa" id="bahasa">
+                        <option value="english">English</option>
+                        <option value="indonesia" selected>Indonesia</option>
+                        <option value="melayu">Melayu</option>
+                        <option value="mandarin">Mandarin</option>
+                        <option value="lainnya">Lainnya</option>
+                    </select>
+                </td>
+           </tr>
+
+           <tr>
+            <td>
+                <label for="tipekoleksi">Tipe Koleksi</label>
+            </td>
+            <td>:</td>
+            <td>
+                <select name="tipekoleksi" id="tipekoleksi">
+                    <option value="cd">CD/DVD</option>
+                    <option value="buku" selected>Buku</option>
+                    <option value="jurnal" selected>Jurnal</option>
+                </select>
+            </td>
+       </tr>
+
+       <tr>
+        <td>
+            <label for="stok">Jumlah yang Tersedia</label>
+        </td>
+        <td>:</td>
+        <td>
+            <input type="number" name="stok" id="stok" value="1">
+        </td>
+   </tr>
+
+   <tr>
+    <td>
+        <label for="status">Status Pinjaman</label>
+    </td>
+    <td>:</td>
+    <td>
+        <input type="radio" name="statustersedia" id="status" value="tersedia"> Tersedia
+        <input type="radio" name="statustidaktersedia" id="status" value="tidaktersedia"> Tidak Tersedia
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <label for="cover">Gambar Cover</label>
+    </td>
+    <td>:</td>
+    <td>
+        <input type="file" name="cover" id="cover">
+    </td>
+</tr>
+
+        </table>
+
+            <br>
+            <input type="submit" value="Tambah" name="Tambah" id="Tambah">
+            <input type="reset" id="reset">
+        </form>
+    </body>
