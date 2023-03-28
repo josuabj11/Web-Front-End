@@ -1,0 +1,41 @@
+<title>Halaman Log In Musicfy</title>
+    </head>
+    <body>
+        <h1 style="color:grey;">&#119235;&#119234;&#119233;Music&#8526;y&#119233;&#119234;&#119235;</h1>
+    <hr color="black" size="1">
+    
+    <h2>Log In ke Music&#8526;y</h2>
+
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <td>
+                    <label for="email">Email Anda</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Masukkan Email">
+                </td>
+            </tr>
+                
+            <tr>
+            <td>
+                <label for="pwd">Password Anda</label>
+                <br>
+                <input type="password" name="pwd" id="pwd" placeholder="Masukkan Password">
+            </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <input type="checkbox" name="centang" id="centang">
+               <label for="centang">Ingat Saya</label>
+               <input type="submit" value="Log In" name="login" id="login">
+               </td>
+            </tr>
+            </table>
+            
+            <hr color="black" size="2">
+            
+            <div>Belum punya akun? <a href="">Sign Up</a></div>
+</form>
+</body>
+</html>
