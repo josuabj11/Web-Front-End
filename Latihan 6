@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="kontenKiri">
+                <h1>Test Kiri</h1>
+            </div>
+            <div class="kontenKanan">
+                <div class="navBar">
+                    <a href="#" class="kotak1">Register</a>
+                    <a href="#" class="kotak2">Sign In</a>
+                </div><br /><br />
+                <div class="isikontenKanan">
+                    <h1>Register</h1>
+                    <form action="#" method="post">
+                        <label for="fname">FULL NAME</label><br />
+                        <input type="text" name="fname" placeholder="Enter Your Full Name"><br /><br />
+                        <label for="email">EMAIL</label><br/>
+                        <input type="email" name="email" placeholder="Enter Your Email"><br /><br />
+                        <label for="password">PASSWORD</label><br/>
+                        <input type="password" name="password" placeholder="Enter Your Password"><br /><br />
+                        
+                        <input type="checkbox" name="centang">
+                        <label for="centang">I Agree To Terms & Condition</label><br /><br />
+                        
+                        <input type="submit" value="Register">
+</form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+body{
+    background-image:linear-gradient(270deg, #616161, #7e7e7e, #AAAAAA, #C1C1C1);
+    font-family:;
+    margin:20px 50px;
+}
+
+h1{
+    padding-left:15px;
+}
+
+.container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.kontenKiri{
+    width:50%;
+    background-image:url();
+    background-color:black;
+    color:white;
+    border-radius:15px 0 0 15px;
+ }
+    
+.kontenKanan{
+    width:50%;
+    background-color:white;
+    border-radius:0 15px 15px 0;
+}
+
+.navBar a{
+    margin-right:10px;
+    float:right;
+    color:black;
+    padding:4px 8px;
+    text-decoration:none;
+    text-align:center;
+    font-size:15px;
+}
+
+.navBar .kotak1{
+
+}
+.navBar .kotak1:hover {
+    background-color: black;
+    color:white;
+    border-radius:0 0 10px 10px;
+}
+
+.navBar .kotak2{
+}
+
+.navBar .kotak2:hover {
+    background-color: black;
+    color:white;
+    border-radius:0 0 10px 10px;
+}
+
+form{
+    color:grey;
+    padding:15px;
+}
+
+input{
+    border:none;
+    border-bottom:2px solid grey;
+    padding:15px;
+}
+
+input[type=submit]{
+    background-color: black; 
+    color: white;
+    border-radius:20px;
+    padding:10px 50px 10px 50px;
+    margin:10px;
+    margin-top:5px;
+}
